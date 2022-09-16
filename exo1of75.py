@@ -1,4 +1,3 @@
-# EXO75_TwoSum
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         dic = [None]*target
@@ -16,6 +15,9 @@ class Solution:
                 result.append(dic2[value])
                 result.append(c)
                 return result 
+
+# Programme validé sur leetcode 
+# complexité  : O(n)
     
 
 
